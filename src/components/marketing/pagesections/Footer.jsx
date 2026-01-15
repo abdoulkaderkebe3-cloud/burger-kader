@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../../elements/Container";
 import immg from "../../../medias/images/background/bg-footer.jpg";
-import { MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import { MapPinIcon, EnvelopeIcon} from "@heroicons/react/24/solid";
 import logoo from "../../../medias/svg/Logo-burger-house-white.svg";
 import ig from "../../../medias/svg/lets-icons_insta.svg";
 import fb from "../../../medias/svg/ic_baseline-facebook.svg";
