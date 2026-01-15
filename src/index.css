@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@theme {
+  --font-roboto: "roboto";
+  --font-title: "Alfa Slab One", serif;
+}
+@theme {
+  --font-weight-extrablack: #3d2514; 
+}
+body{
+  @apply text-[#3d2514];
+  font-family:'Roboto';
+  overflow-x: hidden;
+}
+p{
+  @apply mb-4;
+}
+
+/*mes couleurs*/
+
+@layer utilities {
+  .text-kader {
+    color: #ffc045;
+  }
+  .bg-kader {
+    background-color: #ffc045;
+  }
+
+  .text-marron {
+    color: #3d2514;
+  }
+  .bg-marron {
+    background-color: #3d2514;
+  }
+  .text-rouge {
+    color: #bf2222;
+  }
+  .bg-rouge {
+    background-color: #bf2222;
+  }
+}
+.animate {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/*hero-top*/
+.bg {
+  background-image: url(medias/images/background/bg-food.jpg);
+  background-position: center;
+}
+.shadowTitle{
+      text-shadow: 3px 3px #fee7ba;
+}
+.fff{
+  font-family:"Alfa Slab One" ;
+}
+.ff{
+  font-family:"Alfa Slab One" ;
+  color: #3d2514;
+}
+/*last products*/
+.bgg{
+  background-image: url(medias/images/products/LastProducts-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.bggg{
+  background-image:url(medias/images/products/LastProducts-2.jpg) ;
+  background-position: center;
+  background-size: cover;
+}
+.bgggg{
+  background-image: url(medias/images/products/LastProducts-3.jpg);
+  background-position: center;
+  background-size: cover;
+}
