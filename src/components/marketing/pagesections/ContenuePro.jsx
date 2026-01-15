@@ -6,7 +6,7 @@ import Heading from "../../elements/Displaytitles/Heading";
 import Button from "../../elements/Button";
 export default function ContenuePro() {
   return (
-    <div className="grid  grid-cols-3 gap-x-1 mt-10 mb-20   ">
+    <div className="grid  lg:grid-cols-3 lg:gap-x-1 lg:mt-10 lg:mb-20   ">
       <div className="h-full w-full  ">
         <div className="h-72 w-full">
           <img src={img1} alt="burger" />
