@@ -11,7 +11,7 @@ export default function ContenuePro() {
         <div className="h-72 w-full">
           <img src={img1} alt="burger"  />
         </div>
-        <div className="flex justify-center items-center flex-col px-5 pt-40 lg:pt-10 sm:pt-70 md:pt-100 xl:pt-23 2xl:pt-30 pb-10  ">
+        <div className="flex justify-center items-center flex-col px-5 pt-40 lg:pt-10 sm:pt-75 md:pt-100 xl:pt-23 2xl:pt-30 pb-10  ">
           <Heading variant="h3" className="lg:my-5 ">lorem ipsum dolor</Heading>
           <p className="text-center">
             {" "}
@@ -26,7 +26,7 @@ export default function ContenuePro() {
         <div className="h-72 w-full">
           <img src={img2} alt="burger" />
         </div>
-        <div className="flex justify-center items-center flex-col px-5 pt-40 lg:pt-10 sm:pt-70 md:pt-100 xl:pt-23 2xl:pt-30 pb-10 ">
+        <div className="flex justify-center items-center flex-col px-5 pt-40 lg:pt-10 sm:pt-75 md:pt-100 xl:pt-23 2xl:pt-30 pb-10 ">
           <Heading variant="h3" className="my-5">lorem ipsum dolor</Heading>
           <p className="text-center">
             {" "}
@@ -41,7 +41,7 @@ export default function ContenuePro() {
         <div className="h-72 w-full">
           <img src={img3} alt="burger" />
         </div>
-        <div className="flex justify-center items-center flex-col px-5 pt-40 lg:pt-10 sm:pt-70 md:pt-100 xl:pt-23 2xl:pt-30  pb-10 ">
+        <div className="flex justify-center items-center flex-col px-5 pt-40 lg:pt-10 sm:pt-75 md:pt-100 xl:pt-23 2xl:pt-30  pb-10 ">
           <Heading variant="h3" className="my-5">lorem ipsum dolor</Heading>
           <p className="text-center">
             {" "}
