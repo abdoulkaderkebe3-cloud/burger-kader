@@ -5,7 +5,7 @@ export default function HeadingTitle(props) {
         variant
     }= props;
     const classDefault = "px-7 py-3 bg-kader text-marron uppercase font-bold inline-block"
-
+    const className = "md:mt-70 lg:mt-0"
     switch(variant){
         case "h3":
             return(
@@ -16,7 +16,7 @@ export default function HeadingTitle(props) {
         default:
             return(
                 <div className="flex items-center justify-center my-5">
-                    <h2 className={`  ${classDefault}`}>
+                    <h2 className={` ${className}  ${classDefault}`}>
                         {children}
                     </h2>
                 </div>

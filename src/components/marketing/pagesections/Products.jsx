@@ -9,7 +9,7 @@ export default function Products(){
         <HeadingTitle>
             toujous des delicieux burgers
         </HeadingTitle>
-        <Heading theme="marron" alignement = "center" className="my-5"  >
+        <Heading theme="marron" alignement = "center" className="my-5 text-xl md:text-5xl"  >
             choisissez et savourez
         </Heading>
         <p className='text-center'>
