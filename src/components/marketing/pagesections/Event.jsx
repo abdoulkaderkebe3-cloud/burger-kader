@@ -10,7 +10,7 @@ import img2 from "/src/medias/images/products/Product-2.jpg";
 export default function Event() {
   const Slide = ({ children, category, title, image, alt }) => {
     return (
-      <div className=" grid grid-cols-2 p-6  ">
+      <div className=" grid lg:grid-cols-2 p-6 grid-cols-1   ">
         <div className=" p-10 mb-10">
           <Heading variant="h4">{category}</Heading>
           <Heading theme="marron" variant="h3" className="mb-5">
@@ -24,7 +24,7 @@ export default function Event() {
           <img
             src={image}
             alt={alt}
-            className="absolute top-0 left-0 w-full h-full object-cover object-bottom  pb-15 z-0"
+            className="lg:absolute lg:top-0 lg:left-0 w-full h-full object-cover object-bottom  lg:pb-15 lg:z-0 p-5 lg:p-0 "
           />
         </div>
       </div>

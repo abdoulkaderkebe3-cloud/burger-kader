@@ -5,7 +5,6 @@ import burger from "/src/medias/images/heroTop/burger-hero-top.png";
 import Button from "../../elements/Button";
 export default function heroTop() {
   return (
-    
     <div className="  bg-kader w-full  ">
       <div className="bg w-full h-full  bg-repeat pb-20 md:pb-40">
         <Container>
@@ -13,7 +12,8 @@ export default function heroTop() {
           <div className=" w-full relative md:mt-28 mt-10  ">
             <img
               src={burger}
-              className="absolute z-0 lg:-top-64 -top-20 right-0  hidden lg:block  "style={{width:'568px'}}
+              className="absolute z-0 lg:-top-64 -top-20 right-0  hidden lg:block  "
+              style={{ width: "568px" }}
               alt=""
             />
             <div className=" hidden lg:block   absolute right-80 top-40 bg-rouge w-40 rounded-full  h-40 p-3">
@@ -37,7 +37,9 @@ export default function heroTop() {
               <h2 className=" shadowTitle fff ">
                 {" "}
                 <span className="md:text-8xl block text-7xl ">Burger</span>{" "}
-                <span className="md:text-6xl text-5xl sm:inline-block ">House</span>{" "}
+                <span className="md:text-6xl text-5xl sm:inline-block  ">
+                  House
+                </span>{" "}
                 <span className="text-4xl sm:ml-3 ml-0">
                   {" "}
                   Click <span className="text-rouge">&</span> collect
@@ -45,7 +47,11 @@ export default function heroTop() {
               </h2>
             </div>
           </div>
-          <Button className="mt-5 w-full lg:w-1/2    rounded-sm" color="marron" theme="big">
+          <Button
+            className="mt-5 w-full lg:w-1/2    rounded-sm"
+            color="marron"
+            theme="big"
+          >
             créer un compte
           </Button>
         </Container>

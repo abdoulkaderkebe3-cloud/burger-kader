@@ -8,7 +8,7 @@ import Heading from "../../elements/Displaytitles/Heading";
 export default function booking() {
   return (
     <Container>
-      <div className=" relative mb-20   ">
+      <div className=" relative lg:mb-20 lg:mt-0    mt-125  ">
         <img
           src={food}
           alt="image"
