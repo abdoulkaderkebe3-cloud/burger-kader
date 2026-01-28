@@ -24,12 +24,12 @@ export default function booking() {
           alt="image"
           className="absolute -bottom-52 -right-96 md:block hidden"
         />
-        <div className="max-w-3xl  mx-auto px-10 py-20 ">
+        <div className="max-w-3xl  mx-auto md:px-10 md:py-20 pt-5 md:mt-5 sm:mt-150 -mt-50">
           <Heading variant="h3" alignement="center">
             Réservation
           </Heading>
           <Heading alignement="center" theme="marron" className="mt-5 ">
-            Réservez votre table
+            <span className="text-2xl md:text-5xl">Réservez votre table</span>
           </Heading>
           <form className="grid md:grid-cols-2 grid-cols-1 gap-x-7 gap-y-6 mt-20">
             <div>
@@ -95,7 +95,7 @@ export default function booking() {
                 id="send"
                 value="trouver une table "
                 autoComplete="off"
-                className="bg-rouge hover:bg-red-600 w-full text-white fff cursor-pointer tracking-widest uppercase py-5 rounded-md active:rotate-3"
+                className="bg-rouge hover:bg-red-600 w-full text-white fff cursor-pointer tracking-widest uppercase py-5 my-5 md:my-0 rounded-md active:rotate-3"
               />
             </div>
           </form>
