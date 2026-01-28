@@ -37,7 +37,7 @@ export default function Footer() {
             <div className="flex items-center mt-4">
               <EnvelopeIcon className="h-8 w-8 mr-4" />
               <span className="uppercase font-extrabold text-sm sm:text-lg tracking-tighter">
-                info@buger-house.com <a href="https://github.com/abdoulkaderkebe3-cloud/burger-kader">kader</a>
+                <a href="https://github.com/abdoulkaderkebe3-cloud/burger-kader">info@buger-house.com.kader</a>
               </span>
             </div>
           </div>
