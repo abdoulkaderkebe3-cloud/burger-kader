@@ -10,8 +10,8 @@ import img2 from "/src/medias/images/products/Product-2.jpg";
 export default function Event() {
   const Slide = ({ children, category, title, image, alt }) => {
     return (
-      <div className=" grid lg:grid-cols-2 p-6 grid-cols-1   ">
-        <div className=" p-5 sm:p-10 mb-10">
+      <div className=" grid lg:grid-cols-2 p-5 grid-cols-1   ">
+        <div className=" p-1 sm:p-10 mb-10">
           <Heading variant="h4">{category}</Heading>
           <Heading theme="marron" variant="h3" className="mb-5">
             {title}
@@ -32,7 +32,7 @@ export default function Event() {
   };
 
   const items = [
-    <Slide 
+    <Slide
       image={imge}
       category="evenement  a venir"
       title="vivez la demi finale"
@@ -43,7 +43,7 @@ export default function Event() {
       ratione a ut illum vel! Minus, ad dolores orem ipsum is simply text for
       designer and developper.
     </Slide>,
-    <Slide 
+    <Slide
       image={img1}
       category="decouvrez le nouveau burger"
       title="kader burger"

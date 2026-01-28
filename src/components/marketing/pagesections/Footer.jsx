@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../../elements/Container";
 import immg from "../../../medias/images/background/bg-footer.jpg";
-import { MapPinIcon, EnvelopeIcon} from "@heroicons/react/24/solid";
+import { MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import logoo from "../../../medias/svg/Logo-burger-house-white.svg";
 import ig from "../../../medias/svg/lets-icons_insta.svg";
 import fb from "../../../medias/svg/ic_baseline-facebook.svg";
@@ -17,7 +17,7 @@ export default function Footer() {
           alt="un plan de travail "
           className="bg-black absolute top-0 left-0 w-full object-cover z-0"
         />
-        <div className="grid grid-cols-2 relative h-96 z-10">
+        <div className="grid md:grid-cols-2 grid-cols-1 relative h-96 z-10">
           <div className=" p-5 mt-8 mb-28  w-full h-full">
             <img src={logoo} alt=" logo" className="w-2/3 " />
             <p className="mt-10 ">
@@ -69,12 +69,12 @@ export default function Footer() {
                 />
               </div>
               <div>
-                < a href="https://github.com/dashboard" target="_blanck">
-                <img
-                  src={gi}
-                  alt="insta"
-                  className="h-7 w-7 p-1 bg-white rounded-full "
-                />
+                <a href="https://github.com/dashboard" target="_blanck">
+                  <img
+                    src={gi}
+                    alt="insta"
+                    className="h-7 w-7 p-1 bg-white rounded-full "
+                  />
                 </a>
               </div>
             </div>

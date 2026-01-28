@@ -12,22 +12,26 @@ export default function booking() {
         <img
           src={food}
           alt="image"
-          className="absolute -top-20 -left-36 z-10"
+          className="absolute -top-20 -left-36 z-10 md:block hidden"
         />
-        <img src={sauce} alt="image" className="absolute bottom-0 left-0" />
+        <img
+          src={sauce}
+          alt="image"
+          className="absolute bottom-0 left-0 hidden md:block"
+        />
         <img
           src={assiette}
           alt="image"
-          className="absolute -bottom-52 -right-96"
+          className="absolute -bottom-52 -right-96 md:block hidden"
         />
         <div className="max-w-3xl  mx-auto px-10 py-20 ">
           <Heading variant="h3" alignement="center">
             Réservation
           </Heading>
-          <Heading alignement="center" theme="marron" className="mt-5">
+          <Heading alignement="center" theme="marron" className="mt-5 ">
             Réservez votre table
           </Heading>
-          <form className="grid grid-cols-2 gap-x-7 gap-y-6 mt-20">
+          <form className="grid md:grid-cols-2 grid-cols-1 gap-x-7 gap-y-6 mt-20">
             <div>
               <label htmlFor="name">NOM</label>
               <input
@@ -91,7 +95,7 @@ export default function booking() {
                 id="send"
                 value="trouver une table "
                 autoComplete="off"
-                className="bg-rouge hover:bg-red-600 w-full text-white fff cursor-pointer tracking-widest uppercase py-5 rounded-md animate active:rotate-3 animate-bounce "
+                className="bg-rouge hover:bg-red-600 w-full text-white fff cursor-pointer tracking-widest uppercase py-5 rounded-md active:rotate-3"
               />
             </div>
           </form>
