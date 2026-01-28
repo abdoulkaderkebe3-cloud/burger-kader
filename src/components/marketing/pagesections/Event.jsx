@@ -11,7 +11,7 @@ export default function Event() {
   const Slide = ({ children, category, title, image, alt }) => {
     return (
       <div className=" grid lg:grid-cols-2 p-6 grid-cols-1   ">
-        <div className=" p-10 mb-10">
+        <div className=" p-5 sm:p-10 mb-10">
           <Heading variant="h4">{category}</Heading>
           <Heading theme="marron" variant="h3" className="mb-5">
             {title}
