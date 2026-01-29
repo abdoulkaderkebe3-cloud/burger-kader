@@ -32,7 +32,7 @@ export default function Button({ children, className, color, theme }) {
       return (
         <div>
           <button
-            className={`  ${className} ${background} md:px-8 md:py-4 px-4 py-4 uppercase shadow-xl text-white  md:text-base  text-sm    animate active:translate-1`}
+            className={`  ${className} ${background} md:px-8 md:py-4 px-4 py-4 uppercase shadow-xl text-white  md:text-basex  text-sm    animate active:translate-1`}
           >
             {children}{" "}
           </button>

@@ -95,7 +95,7 @@ export default function booking() {
                 id="send"
                 value="trouver une table "
                 autoComplete="off"
-                className="bg-rouge hover:bg-red-600 w-full text-white fff cursor-pointer tracking-widest uppercase py-5 my-5 md:my-0 rounded-md active:rotate-3"
+                className="bg-rouge hover:bg-red-600 w-full text-white fff cursor-pointer tracking-widest uppercase py-5 my-5 md:my-0 rounded-md active:rotate-y-20 transition-normal"
               />
             </div>
           </form>
