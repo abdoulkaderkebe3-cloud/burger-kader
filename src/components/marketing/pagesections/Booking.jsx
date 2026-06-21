@@ -1,8 +1,8 @@
 import React from "react";
 import Container from "../../elements/Container";
-import assiette from "../../../medias/images/background/assiette-burger-frites.png";
+import assiette from "../../../medias/images/background/Assiette-burger-frites.png";
 import sauce from "../../../medias/images/background/Sauce-pimente.png";
-import food from "../../../medias/images/background/burger.png";
+import food from "../../../medias/images/background/Burger.png";
 import Heading from "../../elements/Displaytitles/Heading";
 
 export default function booking() {

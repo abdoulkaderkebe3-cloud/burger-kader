@@ -4,7 +4,7 @@ import LastProducts from '../components/marketing/pagesections/LastProducts.jsx'
 import Products from '../components/marketing/pagesections/Products.jsx'
 import ContenuePro from '../components/marketing/pagesections/ContenuePro.jsx'
 import Event from '../components/marketing/pagesections/Event.jsx'
-import Booking from '../components/marketing/pagesections/booking.jsx'
+import Booking from '../components/marketing/pagesections/Booking.jsx'
 import Footer from '../components/marketing/pagesections/Footer.jsx'
 export default function HomePage() {
   return (
