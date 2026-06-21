@@ -21,10 +21,10 @@ export default function Footer() {
           <div className="p-5 mt-8 w-full">
             <img src={logoo} alt="logo" className="w-40 sm:w-2/3" />
             <p className="mt-6 text-sm sm:text-base leading-relaxed max-w-prose">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-              cupiditate animi repudiandae quis illum error dolores harum
-              blanditiis, laboriosam doloribus quo ratione, voluptates dolorum
-              est corporis voluptas neque. Ratione, impedit!
+              Burger House est votre adresse gourmande à Yopougon, Abidjan.
+              Chaque jour, nous préparons des burgers faits maison avec des
+              produits frais et locaux, à savourer sur place, à emporter ou
+              en click &amp; collect.
             </p>
           </div>
           <div className="w-full flex flex-col items-start md:items-center justify-center p-5">

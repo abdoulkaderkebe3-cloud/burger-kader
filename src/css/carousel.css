@@ -168,29 +168,39 @@
 }
 
 .alice-carousel__dots {
-  position: absolute;
-  bottom: 80px;
-  left: 63px;
-  padding: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0;
+  padding: 12px 0;
   list-style: none;
-  text-align: center;
+  background-color: #fff;
 }
 .alice-carousel__dots > li {
   display: inline-block;
 }
 .alice-carousel__dots-item:not(.__custom) {
-  width: 20px;
-  height: 20px;
+  width: 9px;
+  height: 9px;
   cursor: pointer;
   border-radius: 50%;
+  transition: background-color 0.2s ease-in-out;
   @apply bg-gray-200;
 }
 .alice-carousel__dots-item:not(.__custom):not(:last-child) {
-  margin-right: 20px;
+  margin-right: 0;
 }
 .alice-carousel__dots-item:not(.__custom):hover,
 .alice-carousel__dots-item:not(.__custom).__active {
   @apply bg-yellow-500;
+}
+@media (min-width: 640px) {
+  .alice-carousel__dots-item:not(.__custom) {
+    width: 11px;
+    height: 11px;
+  }
 }
 
 .alice-carousel__slide-info {

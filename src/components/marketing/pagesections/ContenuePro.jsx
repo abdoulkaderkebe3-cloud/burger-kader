@@ -12,10 +12,10 @@ export default function ContenuePro() {
           <img src={img1} alt="burger"  />
         </div>
         <div className="flex justify-center items-center flex-col px-5 pt-30 lg:pt-10 sm:pt-75 md:pt-100 xl:pt-23 2xl:pt-30 pb-10 min-[562px]:pt-45  ">
-          <Heading variant="h3" className="lg:my-5 ">lorem ipsum dolor</Heading>
+          <Heading variant="h3" className="lg:my-5 ">Classic Burger</Heading>
           <p className="text-center">
             {" "}
-            lorem ipsum is simply text for designer and developper.
+            Steak de bœuf grillé, cheddar fondant, salade croquante et notre sauce maison, dans un pain brioché tout juste sorti du four.
           </p>
           <Button color="danger" className="fff">
             commandez
@@ -27,10 +27,10 @@ export default function ContenuePro() {
           <img src={img2} alt="burger" />
         </div>
         <div className="flex justify-center items-center flex-col px-5 pt-30 min-[600px]:pt-45 lg:pt-10 sm:pt-75 md:pt-100 xl:pt-23 2xl:pt-30 pb-10 ">
-          <Heading variant="h3" className="my-5">lorem ipsum dolor</Heading>
+          <Heading variant="h3" className="my-5">Spicy Chicken</Heading>
           <p className="text-center">
             {" "}
-            lorem ipsum is simply text for designer and developper.
+            Filet de poulet pané croustillant, sauce pimentée maison et crudités fraîches pour les amateurs de sensations relevées.
           </p>
           <Button color="danger" className="fff">
             commandez
@@ -42,10 +42,10 @@ export default function ContenuePro() {
           <img src={img3} alt="burger" />
         </div>
         <div className="flex justify-center items-center flex-col px-5 pt-30 lg:pt-10 sm:pt-75 md:pt-100 xl:pt-23 2xl:pt-30  pb-10 min-[600px]:pt-45 ">
-          <Heading variant="h3" className="my-5">lorem ipsum dolor</Heading>
+          <Heading variant="h3" className="my-5">Veggie Délice</Heading>
           <p className="text-center">
             {" "}
-            lorem ipsum is simply text for designer and developper.
+            Galette de légumes grillée, avocat, tomate confite et sauce yaourt citronnée, pour une pause gourmande et légère.
           </p>
           <Button color="danger" className="fff">
             commandez

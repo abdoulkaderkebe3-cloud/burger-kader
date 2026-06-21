@@ -13,8 +13,7 @@ export default function Products(){
             choisissez et savourez
         </Heading>
         <p className='text-center'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus tenetur, nulla voluptatum omnis pariatur officia magni vel quo quasi consectetur nam maxime minima neque porro fugiat molestias quis atque amet?
-
+            Chez Burger House, chaque burger est préparé minute avec des ingrédients frais et du pain brioché maison. Viande de bœuf grillée, légumes croquants et sauces maison : on assemble la gourmandise, vous savourez le résultat.
         </p>
     </Container>
     )
