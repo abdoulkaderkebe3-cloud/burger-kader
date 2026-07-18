@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Button({ children, className, color, theme }) {
+export default function Button({ children, className, color, theme, ...rest }) {
   let background;
 
   switch (color) {
@@ -18,11 +18,23 @@ export default function Button({ children, className, color, theme }) {
   }
 
   switch (theme) {
+    case "mini":
+      return (
+        <div>
+          <button
+            {...rest}
+            className={`  ${className} ${background} w-6 h-6 flex items-center justify-center rounded text-white text-xs animate active:translate-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none`}
+          >
+            {children}
+          </button>
+        </div>
+      );
     case "small":
       return (
         <div>
           <button
-            className={`  ${className} ${background}  px-4 py-2  uppercase shadow-xl text-white  text-xs     animate active:translate-1`}
+            {...rest}
+            className={`  ${className} ${background}  px-4 py-2  uppercase shadow-xl text-white  text-xs     animate active:translate-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none`}
           >
             {children}{" "}
           </button>
@@ -32,7 +44,8 @@ export default function Button({ children, className, color, theme }) {
       return (
         <div>
           <button
-            className={`  ${className} ${background} md:px-8 md:py-4 px-4 py-4 uppercase shadow-xl text-white  md:text-basex  text-sm    animate active:translate-1`}
+            {...rest}
+            className={`  ${className} ${background} md:px-8 md:py-4 px-4 py-4 uppercase shadow-xl text-white  md:text-basex  text-sm    animate active:translate-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none`}
           >
             {children}{" "}
           </button>
@@ -42,7 +55,8 @@ export default function Button({ children, className, color, theme }) {
       return (
         <div>
           <button
-            className={`  ${className}  ${background} px-4 py-3 uppercase shadow-xl text-white  text-xs md:text-sm    animate active:translate-1`}
+            {...rest}
+            className={`  ${className}  ${background} px-4 py-3 uppercase shadow-xl text-white  text-xs md:text-sm    animate active:translate-1 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none`}
           >
             {children}{" "}
           </button>

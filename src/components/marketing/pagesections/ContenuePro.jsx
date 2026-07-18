@@ -4,6 +4,11 @@ import img2 from "/src/medias/images/products/Product-2.jpg";
 import img3 from "/src/medias/images/products/Product-3.jpg";
 import Heading from "../../elements/Displaytitles/Heading";
 import Button from "../../elements/Button";
+import { ID_ANCRE_MENU } from "../../../constants/ancres.js";
+function allerAuMenu() {
+  document.getElementById(ID_ANCRE_MENU)?.scrollIntoView({ behavior: "smooth" });
+}
+
 export default function ContenuePro() {
   return (
     <div className="grid  lg:grid-cols-3 lg:gap-x-1 lg:mt-10 lg:mb-20 ">
@@ -17,7 +22,7 @@ export default function ContenuePro() {
             {" "}
             Steak de bœuf grillé, cheddar fondant, salade croquante et notre sauce maison, dans un pain brioché tout juste sorti du four.
           </p>
-          <Button color="danger" className="fff">
+          <Button color="danger" className="fff" onClick={allerAuMenu}>
             commandez
           </Button>
         </div>
@@ -32,7 +37,7 @@ export default function ContenuePro() {
             {" "}
             Filet de poulet pané croustillant, sauce pimentée maison et crudités fraîches pour les amateurs de sensations relevées.
           </p>
-          <Button color="danger" className="fff">
+          <Button color="danger" className="fff" onClick={allerAuMenu}>
             commandez
           </Button>
         </div>
@@ -47,7 +52,7 @@ export default function ContenuePro() {
             {" "}
             Galette de légumes grillée, avocat, tomate confite et sauce yaourt citronnée, pour une pause gourmande et légère.
           </p>
-          <Button color="danger" className="fff">
+          <Button color="danger" className="fff" onClick={allerAuMenu}>
             commandez
           </Button>
         </div>
